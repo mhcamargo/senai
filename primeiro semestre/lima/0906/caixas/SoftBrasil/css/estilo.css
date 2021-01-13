@@ -1,0 +1,21 @@
+h1{
+    text-align: center;
+}
+.linha{
+    width: 600px;
+    height: 62px;
+}
+.cor1{
+    background-color: rgb(0, 108, 248);
+    width: 60px;
+    height: 60px;
+    float: right;
+    border: 1px solid #000;
+}
+.cor2{
+    background-color: rgb(255, 0, 0);
+    width: 60px;
+    height: 60px;
+    float: right;
+    border: 1px solid #000;
+}

@@ -1,0 +1,20 @@
+page-home {
+  h3 {
+    text-align: center;
+    color: rebeccapurple;
+  }
+
+  img {
+    width: 300px;
+    align-self: center;
+    margin: auto;
+    display: block;
+    padding: 10px;
+  }
+  .btn {
+    border-radius: 20px;
+    background: #ff00cc;
+    background: -webkit-linear-gradient(to right, #333399, #ff00cc);
+    background: linear-gradient(to right, #333399, #ff00cc);
+  }
+}

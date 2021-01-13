@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/Style.css" />
+    <link rel="shortcut icon" href="img/favicon.ico" />
+    <title>Senai</title>
+  </head>
+  <body onload="reload()">
+    <nav>
+      <div class="nav-container">
+        <div class="img-wrapper">
+          <img src="./img/logo-senai.png" alt="Logo senai" />
+        </div>
+        <ul>
+          <li><a href="#curso">Curso</a></li>
+          <li><a href="#hor">Horario</a></li>
+          <li><a href="#pre">Presença</a></li>
+        </ul>
+      </div>
+    </nav>
+    <section class="main">
+      <div class="main-container">
+        <h1>Senai Jaguariuna</h1>
+        <div class="img-wrapper-bg">
+          <img src="./img/bg.jpg" alt="" />
+        </div>
+      </div>
+    </section>
+    <section class="curso" id="curso">
+      <h1>Curso</h1>
+
+      <div class="img-wrapper-curso">
+        <img src="./img/curso.jpg" alt="" />
+      </div>
+    </section>
+    <section class="hor" id="hor">
+      <h1>Horário</h1>
+      <div class="hor-container">
+        <h3>Comeca: 7:30 Horario de Brasilia</h3>
+        <h3>Termina: 11:30 Horario de Brasilia</h3>
+      </div>
+    </section>
+    <section class="pre" id="pre">
+      <h1>Formulario de presença</h1>
+      <div class="pre-container">
+        <div class="form1">
+          <form>
+            <input type="text" placeholder="nome completo" id="nome" />
+            <select id="sel" class="form1 form input">
+              <option>Status</option>
+              <option value="Confirmado">Confirmado</option>
+              <option value="Recusado">Recusado</option>
+              <option value="Aguardardando">Aguardardando</option>
+            </select>
+            <input
+              type="button"
+              class="btn"
+              value="Adicionar"
+              id="botao"
+              onclick="addlinhas()"
+            />
+            <input
+              type="button"
+              class="btn"
+              value="salvar"
+              id="btn"
+              onclick="savecookie()"
+            />
+          </form>
+        </div>
+        <div class="tableResult">
+          <table>
+            <thead>
+              <th>Nome</th>
+              <th>Status</th>
+              <th>Botões de ação</th>
+            </thead>
+            <tbody id="tableBody"></tbody>
+          </table>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <div class="footer-content">
+        <p>copyright &copy;2020, M camargo - Todos direitos reservados</p>
+        <a href="https://github.com/mhcamargo/Senai_Front-End" target="blanke"
+          >Git</a
+        >
+      </div>
+    </footer>
+    <script src="./js/script.js"></script>
+  </body>
+</html>

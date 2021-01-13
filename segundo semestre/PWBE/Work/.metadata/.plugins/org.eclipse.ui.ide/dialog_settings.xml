@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="ExternalProjectImportWizard">
+	</section>
+	<section name="SmartImportWizard">
+		<item key="SmartImportRootWizardPage.STORE_HIDE_ALREADY_OPEN" value="false"/>
+		<item key="SmartImportRootWizardPage.STORE_CLOSE_IMPORTED" value="false"/>
+		<item key="SmartImportRootWizardPage.STORE_NESTED_PROJECTS" value="true"/>
+		<item key="SmartImportRootWizardPage.STORE_CONFIGURE_NATURES" value="true"/>
+		<list key="org.eclipse.ui.internal.wizards.datatransfer.SmartImportRootWizardPage.knownSources">
+			<item value="C:\Users\muril\OneDrive\Documentos\senai\segundo semestre\PWBE\Work\InvestimentosWEB"/>
+			<item value="C:\Users\muril\git\Sistema-logistico\Entregas"/>
+			<item value="C:\Users\muril\git\Sistema-logistico\Sistema-logistico"/>
+			<item value="C:\Users\muril\OneDrive\Área de Trabalho\SistemaLogistico"/>
+			<item value="C:\Users\muril\OneDrive\Documentos\senai\segundo semestre\PWBE\trabalhoDescktop"/>
+			<item value="C:\Users\muril\git\Sistema-logistico\SistemaLogistico"/>
+			<item value="C:\Users\muril\git\aulapoo\eclipse\ResponderInsomnia"/>
+			<item value="C:\Users\muril\git\Sistema-Log-stico"/>
+			<item value="C:\Users\muril\OneDrive\Área de Trabalho\Sistema-logistico-outra"/>
+			<item value="C:\Users\muril\git\Sistema-logistico"/>
+		</list>
+	</section>
+</section>

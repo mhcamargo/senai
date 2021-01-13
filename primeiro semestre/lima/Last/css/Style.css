@@ -1,0 +1,89 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+img {
+  display: block;
+  max-width: 100%;
+}
+.profile-pic {
+  border-radius: 50%;
+  margin: 0 auto 2rem auto;
+}
+li {
+  list-style: none;
+  margin-left: 1rem;
+}
+body {
+  font-family: "Source Code Pro", monospace;
+  background: url("../img/Bg.jpg") no-repeat top center;
+  background-attachment: fixed;
+  background-size: cover;
+  display: grid;
+  align-items: center;
+  justify-items: center;
+  height: 100vh;
+  color: #555555;
+}
+.Tittle {
+  font-size: 36px;
+  font-weight: normal;
+}
+.box {
+  background: #eee;
+  padding: 4rem;
+  box-shadow: 2px 2px 16px rgba(0, 0, 0, 0.16);
+  border-radius: 50px;
+  text-align: center;
+}
+.profile {
+  margin-top: 6rem;
+}
+.profile span {
+  font-size: 24px;
+}
+.profile p {
+  font-size: 18px;
+  margin-top: 2rem;
+  margin-bottom: 4rem;
+}
+.Rs {
+  display: flex;
+  justify-content: center;
+}
+.Rs li {
+  margin-right: 1rem;
+}
+.img-a {
+  width: 200px;
+  height: 274px;
+}
+.portifolio {
+  max-width: 886px;
+  margin: 8rem 0;
+}
+.portifolio ul {
+  margin-top: 3rem;
+}
+
+.portifolio li {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  margin-top: 3rem;
+  text-align: left;
+  gap: 1rem;
+  color: #606060;
+}
+.portifolio h2 {
+  font-weight: normal;
+  margin-bottom: 1.5rem;
+}
+.img-t {
+  width: 200px;
+  height: 274px;
+}
+.copyright {
+  font-size: 24px;
+  color: white;
+  text-shadow: 2px 2px 16px black;
+}

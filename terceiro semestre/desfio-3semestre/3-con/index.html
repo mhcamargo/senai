@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desafio 3</title>
+</head>
+
+<body>
+    <form class="Recebe">
+        <h3>Informe as informações abaixo</h3>
+        <input type="number" id="vl1" required placeholder="Valor 1">
+        <input type="number" id="vl2" placeholder="Valor 2">
+        <input type="number" id="vl3" placeholder="Valor 3">
+        <input type="button" value="Enviar" id="btn">
+    </form>
+
+    <script src="./index.js"></script>
+</body>
+<style>
+    * {
+        margin: 0;
+        padding: 0;
+    }
+
+    body {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+
+    }
+
+    .Recebe {
+        width: 200px;
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+        margin-top: 30vh;
+    }
+
+    #btn {
+        padding: 10px 20px;
+        border: none;
+        border-radius: 10px;
+        color: white;
+        background: #8E2DE2;
+        background: -webkit-linear-gradient(to right, #4A00E0, #8E2DE2);
+        background: linear-gradient(to right, #4A00E0, #8E2DE2);
+
+    }
+</style>
+
+</html>

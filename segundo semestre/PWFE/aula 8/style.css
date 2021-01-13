@@ -1,0 +1,21 @@
+@import url("https://fonts.googleapis.com/css2?family=Baloo+Tammudu+2&family=Kufam&display=swap");
+
+:root {
+  --font-mensag: "Baloo Tammudu 2", cursive;
+  --font-princ: "Kufam", cursive;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: rebeccapurple;
+}
+.mensag {
+  color: #ffffff;
+  font-size: 1rem;
+  text-align: center;
+  font-family: var(--font-mensag);
+  margin-top: 15%;
+}

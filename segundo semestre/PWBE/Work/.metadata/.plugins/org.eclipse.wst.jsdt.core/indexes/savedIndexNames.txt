@@ -1,0 +1,3 @@
+INDEX VERSION 1.4+C:\Users\muril\OneDrive\Documentos\senai\segundo semestre\PWBE\Work\.metadata\.plugins\org.eclipse.wst.jsdt.core\indexes
+549663444.index
+467595458.index

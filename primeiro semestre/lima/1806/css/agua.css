@@ -1,0 +1,129 @@
+body{
+    width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: black;
+}
+#azul{
+    height: 170px;
+    width: 100%;
+    background-color: #2e73b9;
+}
+.caixaSuperior{
+    height: 100px;
+    width: 212px;
+    float: left;
+    margin-left: 75px;
+    padding-top: 50px;
+}
+.caixaSuperior h1{
+    color: #fff;
+    text-align: center;
+    font-size: 50px;
+    margin: 0px;
+}
+.caixaSuperior h3{
+    margin: 0px;
+    color: #fff;
+    text-align: center;
+    font-size: 10px;
+}
+.cx{
+    width: 370px;
+    float: right;
+    margin-top: 15px;
+    margin-right: 100px;
+    font-family: Arial,sans-serif;
+    font-size: 13px;
+    color: #ffffff;
+}
+#verde{
+    height: 170px;
+    width: 100%;
+    background-color: #286c5c;
+}
+.diagonalVerde{
+    height: 170px;
+    width: 80px;
+    float: left;
+    background-color: #0a6938;
+}
+.texto{
+    font-family: arial,sans-serif;
+    font-size: 12px;
+    color: #ffffff;
+    -webkit-transform: rotate(270deg);
+    -o-transform: rotate(270deg);
+    -moz-transform: rotate(270deg);
+    white-space: nowrap;
+    margin-top: 70px;
+}
+.caixa{
+    height: 110px;
+    width: 200px;
+    padding-top: 58px;
+    float: left;
+}
+.caixa figure{
+    margin: 0px;
+}
+.cx ul li{
+    list-style-image: url(../imagens/gota2.png);
+    line-height: 25px;
+}
+#cinza{
+    height: 172px;
+    width: 100%;
+    margin-left: auto;
+    background-color: #9c9c9c;
+}
+.diagonalCinza{
+    height: 172px;
+    width: 80px;
+    background-color: #867875;
+    float: left;
+}
+.diagonalAzul{
+    height: 170px;
+    width: 80px;
+    float: left;
+    background-color: #024893;
+    text-align: center;
+}
+#laranja{
+    height: 170px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #d18d43;
+}
+.diagonalLaranja{
+    height: 170px;
+    width: 80px;
+    background-color: #cd6600;
+    float: left;
+}
+#branco{
+    height: 172px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #fff;
+}
+.iconeCaixaBranca{
+    height: 200px;
+    width: 170px;
+    float: left;
+    margin-top: 15px;
+    margin-left: 100px;
+    font-family: arial,sans-serif;
+    font-size: 10px;
+    text-align: center;
+    color: #000;
+}
+.cxLogo{
+    height: 40px;
+    width: 900px;
+    margin-top: 8px;
+    text-align: center;
+}

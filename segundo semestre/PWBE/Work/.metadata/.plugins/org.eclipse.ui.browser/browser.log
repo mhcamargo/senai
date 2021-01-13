@@ -1,0 +1,6 @@
+
+set 28, 2020 09:31:47.38 NEW SESSION
+set 28, 2020 09:31:47.66 [13492:14332:0928/093147.386:ERROR:media_history_store.cc(363)] Failed to create or update the media history store.
+set 28, 2020 09:38:31.66 [14056:3840:0928/093831.668:ERROR:media_history_store.cc(363)] Failed to create or update the media history store.
+set 28, 2020 09:41:24.22 [17236:14344:0928/094124.222:ERROR:media_history_store.cc(363)] Failed to create or update the media history store.
+set 28, 2020 09:43:49.03 [8772:16240:0928/094349.033:ERROR:media_history_store.cc(363)] Failed to create or update the media history store.

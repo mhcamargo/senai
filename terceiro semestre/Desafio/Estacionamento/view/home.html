@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="./css/style.css">
+
+</head>
+
+<body>
+	<main class="container">
+		<div class="tittlehapper">
+			<i class="fas fa-warehouse"></i>
+			<h2>Estacionamento da juh</h2>
+		</div>
+		<div class="main-container">
+			<div class="cad">
+				<h3>Preencha os campos a baixo para cadastrar o veiculo</h3>
+				<i class="fas fa-key"><input type="number" placeholder="ID" name="id_v" id="id_v"></i>
+
+				<i class="fas fa-paper-plane">
+					<input type="text" placeholder="Placa" name="placa" id="placa">
+				</i>
+				<i class="fas fa-car-side">
+					<input type="text" placeholder="Tipo do veiculo" name="tipo" id="tipo">
+				</i>
+				<i class="fas fa-clipboard-list">
+					<input type="text" placeholder="Observação" name="cadObs" id="cadObs">
+				</i>
+				<button class="btn" id="addBtn">Enviar</button>
+
+				<p></p>
+			</div>
+			<div class="cons">
+				<h3>Infome o id do veiculo para consultar</h3>
+				<i class="fas fa-key"><input type="number" placeholder="ID" name="id_v_consul" id="id_v_consul"></i>
+				<button class="btn" id="consBtn" onclick="listar()">Consultar</button>
+
+				<tbody id="tbodycars"></tbody>
+			</div>
+			<div class="alt">
+				<h3>Preencha os campos a baixo para alterar o veiculo</h3>
+				<i class="fas fa-key"><input type="number" placeholder="ID" name="id_v" id="id_v_alt"></i>
+
+				<i class="fas fa-car-side">
+					<input type="text" placeholder="Observação" name="obs" id="obs">
+				</i>
+				<button class="btn" id="altBtn">Alterar</button>
+
+				<p></p>
+			</div>
+
+		</div>
+		<div class="del">
+			<h3>Infome o id do veiculo para ser deletado</h3>
+			<i class="fas fa-key"><input type="number" placeholder="ID" name="id_v_del" id="id_v_del"></i>
+			<button class="btn" id="delBtn">Deletar</button>
+
+
+		</div>
+	</main>
+	<script src="./js/script.js"></script>
+</body>
+
+</html>

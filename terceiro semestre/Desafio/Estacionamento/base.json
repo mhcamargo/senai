@@ -1,0 +1,35 @@
+{
+	"Connection" : {
+		"Headers" : {
+			"Content-type" : "application/json; charset=UTF-8",
+			"Access-Control-Allow-Origin" : "http://localhost/",
+			"Access-Control-Allow-Methods" : "GET, PUT, POST, DELETE"
+		}
+	},
+	"Database" : {
+		"host" : "localhost",
+		"port" : "3306",
+		"dbname" : "jullyana",
+		"user" : "root",
+		"password" : ""
+	},
+	"Class" : [
+		{
+			"name" : "veiculos",
+			"attributes" : [
+				"id_v",
+				"Placa",
+				"Tipo"
+			]
+		},
+		{
+			"name" : "Vagas",
+			"attributes" : [
+				"id_v",
+				"Dat",
+				"Hora_E",
+				"Hora_S"
+			]
+		}
+	]
+}

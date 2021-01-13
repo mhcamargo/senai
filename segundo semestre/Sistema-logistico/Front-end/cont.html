@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/syle.css" />
+    <title>JAGUAREX</title>
+  </head>
+  <body class="body">
+    <header class="header">
+      <p>JAGUAREX</p>
+      <div class="header-container">
+        <a href="index.html">voltar</a>
+        <a href="about.html">Sobre nós</a>
+      </div>
+      <!--Final do header-container-->
+    </header>
+    <!--Final do header-->
+    <main class="Main">
+      <div class="title">
+        <img src="./img/logo.jpg" />
+        <h1>Faça uma simulação</h1>
+      </div>
+    </main>
+    <!--Final da main-->
+    <center>
+      <!--Início do Formulário-->
+      <div class="conteudo">
+        <form>
+          <fieldset>
+            <h2>Local de Envio</h2>
+
+            <label
+              >CEP *
+              <input type="text" name="cep" id="cep" />
+            </label>
+            <label
+              >Rua *
+              <input type="text" name="rua" id="rua" />
+            </label>
+            <label
+              >Complemento *
+              <input type="text" name="ccomplemento" id="complemento" />
+            </label>
+            <label
+              >Bairro *
+              <input type="text" name="bairro" id="bairro" />
+            </label>
+            <label
+              >Cidade *
+              <input type="text" name="cidade" id="cidade" />
+            </label>
+            <label
+              >UF *
+              <input type="text" name="uf" id="uf" />
+            </label>
+            <label
+              >Tipo d Entrega *
+              <select id="TPEntrega" class="tam">
+                <option>Informe o tamanho</option>
+                <option value="small">Pequena</option>
+                <option value="median">Média</option>
+                <option value="big">Grande</option>
+              </select>
+            </label>
+          </fieldset>
+          <fieldset>
+            <h2>Local de Entrega</h2>
+
+            <label
+              >CEP *
+              <input type="text" name="cep" id="cep" />
+            </label>
+
+            <label
+              >Rua *
+              <input type="text" name="rua" id="rua" />
+            </label>
+
+            <label
+              >Complemento *
+              <input type="text" name="ccomplemento" id="complemento" />
+            </label>
+
+            <label
+              >Bairro *
+              <input type="text" name="bairro" id="bairro" />
+            </label>
+
+            <label
+              >Cidade *
+              <input type="text" name="cidade" id="cidade" />
+            </label>
+
+            <label
+              >UF *
+              <input type="text" name="uf" id="uf" />
+            </label>
+            <label
+              >Distancia *
+              <input type="number" id="dis" />
+            </label>
+          </fieldset>
+          <input
+            type="button"
+            id="btEnviar"
+            value="Enviar"
+            onclick="simulacao()"
+          />
+          <input type="reset" id="btLimpar" value="Limpar" />
+          <h4>Os campos com * são obrigatórios</h4>
+        </form>
+      </div>
+    </center>
+    <div id="destino"></div>
+
+    <!--Final do Formulário-->
+    <footer class="Rodape">
+      <h1>Faça o seu próprio caminho.</h1>
+      <section class="rs">
+        <a href="#"><img src="./icons/email.svg" /> Email</a>
+        <a href="#"><img src="./icons/FB.svg" /> Facebook</a>
+        <a href="#"><img src="./icons/insta.svg" /> Instagram</a>
+        <a href="#"><img src="./icons/wpp.svg" /> WhatsApp</a>
+        <a href="https://github.com/mhcamargo/Sistema-logistico" target="_blank"
+          ><img src="./icons/github.svg" /> Github</a
+        >
+      </section>
+      <p>&copy;JAGUAREX 2020 - &Omega;</p>
+    </footer>
+    <script src="./js/script.js"></script>
+  </body>
+</html>

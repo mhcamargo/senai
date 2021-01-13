@@ -1,0 +1,10 @@
+.caixa{
+    background-color: #00f;
+    width: 200px;
+    height: 200px;
+    float:left;
+}
+#total{
+    width: 400px;
+    height: 400px;
+}

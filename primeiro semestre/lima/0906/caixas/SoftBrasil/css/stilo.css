@@ -1,0 +1,29 @@
+h1{
+    text-align: center;
+    color: blue;
+}
+.semana{
+    width: 590px;
+    height: 78px;
+}
+.dia{
+    width: 80px;
+    height: 75px;
+     float: left;   
+    border: 1px solid #ddd;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    background-color: blue;
+}
+.dia:hover{
+    font-size: 28px;
+    color: cyan;
+}
+.domingoFeriado{
+   background-color: red;
+   
+}
+.aniversario{
+    background-color: rgb(30, 255, 0);
+}
+

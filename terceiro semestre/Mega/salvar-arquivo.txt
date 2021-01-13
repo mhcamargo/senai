@@ -1,0 +1,18 @@
+if(num.value < 6){
+        alert("Numero tem q ser menor que 6")
+        num.value = 0
+    } else if (num.value > 11){
+        alert("Não pode passar de 10")
+        num.value = 0
+    } 
+
+function salvarArquivo() {
+    if (corpoTabela.getElementsByTagName("tr").length > 0) {
+      let a = document.createElement("a");
+      a.href = "data:," + tbodyToCSV(corpoTabela);
+      a.download = "financiamentos.csv";
+      a.click();
+    } else {
+      alert("Não há dados na tabela para serem salvos.");
+    }
+  }

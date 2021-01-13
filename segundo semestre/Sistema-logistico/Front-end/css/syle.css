@@ -1,0 +1,226 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  font-style: normal;
+}
+a {
+  text-decoration: none;
+  color: #ffffff;
+}
+.body {
+  position: relative;
+  width: 1000;
+  height: 1200;
+}
+.header {
+  display: flex;
+  padding: 5px 0;
+  background-color: #0066ff;
+  color: #ffffff;
+  padding-left: 72px;
+}
+.header-container {
+  display: flex;
+  padding-left: 970px;
+  gap: 20px;
+}
+/*-----Final da header-----*/
+.titulo {
+  margin-top: 58px;
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+}
+.titulo img {
+  width: 53px;
+}
+/*-----Final do titulo-----*/
+.principal {
+  display: flex;
+  width: 580px;
+  height: 117px;
+  margin: 0 auto;
+  gap: 188px;
+}
+.principal h1 {
+  text-align: right;
+  padding-top: 15px;
+}
+.principal img {
+  width: 150px;
+}
+/*-----Final da principal-----*/
+.part {
+  text-align: center;
+  margin: 0 auto;
+  margin-top: 30px;
+  color: #ffffff;
+}
+.part h1 {
+  color: black;
+}
+.part img {
+  width: 207px;
+  border-radius: 10px;
+}
+.box {
+  background: #0066ff;
+  display: inline-table;
+  grid-template-columns: repeat(2, auto);
+  max-width: 210px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  padding: 15px;
+  margin-left: 30px;
+  margin-top: 20px;
+  border-radius: 15px;
+}
+.box img {
+  width: 207px;
+  height: 136px;
+}
+.box p {
+  margin-top: 1rem;
+}
+/*Final do main*/
+/* Começo da pagina de simulçao*/
+.title {
+  text-align: center;
+}
+.title img {
+  width: 200px;
+}
+h1 {
+  margin-bottom: 32px;
+}
+h2 {
+  margin: 8px;
+}
+.conteudo form {
+  display: inline-table;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  background: #0066ff;
+  width: 800px;
+  height: 500px;
+  margin-left: auto;
+  margin-right: auto;
+  color: #ffffff;
+  padding: 15px;
+  border-radius: 15px;
+  margin-bottom: 25px;
+}
+.conteudo form fieldset {
+  width: 350px;
+  height: 470px;
+  border-radius: 10px;
+  border-color: #0066ff;
+  margin-left: auto;
+  margin-right: auto;
+  float: left;
+  margin-left: 20px;
+}
+.conteudo form fieldset label {
+  text-align: left;
+  width: 220px;
+  height: 60px;
+  float: left;
+  clear: left;
+  margin-left: 60px;
+}
+.conteudo form fieldset input {
+  width: 220px;
+  height: 25px;
+  border: 1px solid #fff;
+  background-color: #fff;
+  border-radius: 5px;
+  padding-left: 5px;
+}
+.tam {
+  width: 220px;
+  height: 25px;
+  border-radius: 5px;
+  border-color: #fff;
+}
+.conteudo form #btEnviar,
+#btLimpar {
+  border-radius: 10px;
+  border: n;
+  margin-top: 20px;
+  margin-left: 20px;
+  float: right;
+  background: white;
+  width: 85px;
+  height: 28px;
+  text-align: center;
+}
+h4 {
+  text-align: auto;
+  float: left;
+  margin-top: 20px;
+  font: bold 12px/24px arial, helvetica, sans-aerif;
+}
+.re {
+  width: 350px;
+  height: 25px;
+  margin: 0 auto;
+  text-align: center;
+  background: #0066ff;
+  color: #fff;
+  border-radius: 5px;
+}
+.res {
+  display: flex;
+  gap: 5px;
+  margin-left: 45px;
+  padding-top: 5px;
+}
+/* Fianl da pagina de simulação*/
+/* Começo da pagina sobre*/
+.main-container {
+  width: auto;
+  margin: 0 auto;
+}
+.Main h2 {
+  width: 900px;
+  margin: 0 auto;
+  font-weight: 400;
+  text-align: justify;
+}
+.bar {
+  width: auto;
+  height: 30px;
+  margin-top: 2rem;
+  padding: 3px 0;
+  background: #0066ff;
+  color: #ffffff;
+  text-align: center;
+}
+/* Final da pagina sobre*/
+/*Comeco do rodapé*/
+.Rodape {
+  width: auto;
+  height: 300px;
+  margin-top: 2rem;
+  background: #0066ff;
+  color: #ffffff;
+  text-align: center;
+}
+.Rodape h1 {
+  padding-top: 20px;
+}
+.rs {
+  display: flex;
+  margin-left: 380px;
+  margin-top: 35px;
+  gap: 30px;
+}
+.rs img {
+  width: 25px;
+}
+.Rodape p {
+  margin-top: 160px;
+}

@@ -1,0 +1,18 @@
+div{
+    width: 200px;
+    height: 200px;
+    float: left;
+}
+#caixa1{
+    background-color: #00f;
+}
+#caixa2{
+    background-color: #ff0;
+}
+#caixa3{
+    background-color: #f0f;
+    clear: left;
+}
+#caixa4{
+    background-color: #0f0;
+}
