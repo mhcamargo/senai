@@ -38,7 +38,7 @@ body{
     cursor: pointer;
 }
 #btn:hover{
-    animation: coor .3s infinite;
+    animation: coor .2s infinite;
 }
 @keyframes coor{
     0%{
