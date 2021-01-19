@@ -1,6 +1,6 @@
 import { Component } from '@angular/core';
 import { Gyroscope, GyroscopeOrientation, GyroscopeOptions } from '@ionic-native/gyroscope/ngx';
-//import { DeviceMotion, DeviceMotionAccelerationData } from '@ionic-native/device-motion/ngx'
+import { DeviceMotion, DeviceMotionAccelerationData } from '@ionic-native/device-motion/ngx'
 
 @Component({
   selector: 'app-home',
@@ -18,7 +18,7 @@ export class HomePage {
   timestamp: any;
 
 
-  constructor(private gyroscope: Gyroscope,/* private deviceMotion: DeviceMotion*/) {
+  constructor(private gyroscope: Gyroscope, private deviceMotion: DeviceMotion) {
     this.x = -1;
     this.y = -1;
     this.z = -1;
@@ -62,7 +62,6 @@ export class HomePage {
   }
 
   // Acelerômetro
-  /*
   acelerometro() {
     this.deviceMotion.getCurrentAcceleration().then(
       (acceleration: DeviceMotionAccelerationData) =>
@@ -86,6 +85,6 @@ export class HomePage {
         this.accZ = acceleration.z;
       });
 
-  }*/
+  }
 
 }
