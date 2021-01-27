@@ -1,5 +1,17 @@
 const btn = document.getElementById("btn")
+const tarefa = document.getElementById("tarefa")
+const quem = document.getElementById("qn-tarefa")
+const status = document.getElementById("status")
+const data_ini = document.getElementById("data-ini")
+const data_fim = document.getElementById("data-fim")
 
 btn.addEventListener("click", () => {
-    alert("say hello to my old friend")
+    var doc = new jsPDF()
+    doc.setFontSize(12)
+    doc.text(tarefa.value , 10 ,10)
+    doc.text(quem.value , 20 ,10)
+    doc.text(status.value , 30 ,10)
+    doc.text(data_ini.value , 40 ,10)
+    doc.text(data_fim.value , 50 ,10)
+    doc.save('teste.pdf')
 })
