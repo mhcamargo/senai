@@ -1,0 +1,53 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title> Select </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <ion-header collapse="condense">
+    <ion-toolbar>
+      <ion-title size="large">Blank</ion-title>
+    </ion-toolbar>
+  </ion-header>
+
+  <div id="container">
+    <ion-list>
+      <!--Single Select-->
+      <ion-item>
+        <ion-label>Escolha seu animal de estimação</ion-label>
+        <ion-select>
+          <ion-select-option value="Cachorro">Cachorro</ion-select-option>
+          <ion-select-option value="Gato">Gato</ion-select-option>
+        </ion-select>
+      </ion-item>
+
+      <!--Multiple Select-->
+      <ion-item>
+        <ion-label>Series</ion-label>
+        <ion-select multiple="true" cancelText="N" okText="Vamo">
+          <ion-select-option value="friends">Friends</ion-select-option>
+          <ion-select-option value="b99">Brooklyn Nine-Nine</ion-select-option>
+          <ion-select-option value="spn">Supernatural</ion-select-option>
+          <ion-select-option value="pb">Peaky Blinders</ion-select-option>
+          <ion-select-option value="tf">The Flash</ion-select-option>
+        </ion-select>
+      </ion-item>
+
+      <!--Notificacao-->
+      <ion-item>
+        <ion-label>Notificação</ion-label>
+        <ion-select value="notifications" interface="action-sheet">
+          <ion-select-option value="enable">Ligada</ion-select-option>
+          <ion-select-option value="mute">Mutada</ion-select-option>
+          <ion-select-option value="mute_week"
+            >Mutada por uma semana</ion-select-option
+          >
+          <ion-select-option value="mute_year"
+            >Mutada po um ano</ion-select-option
+          >
+        </ion-select>
+      </ion-item>
+    </ion-list>
+  </div>
+</ion-content>
